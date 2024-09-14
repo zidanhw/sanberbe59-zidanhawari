@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon src/index.ts",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "ts-node src/index.ts",
     "docs": "ts-node src/docs/swagger.ts"
   },
   "keywords": [],
