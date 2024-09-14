@@ -309,6 +309,7 @@
         "tags": [
           "Products"
         ],
+        "summary": "Get all products",
         "description": "",
         "parameters": [
           {
@@ -346,6 +347,7 @@
         "tags": [
           "Products"
         ],
+        "summary": "Create a new product",
         "description": "",
         "responses": {
           "201": {
@@ -388,6 +390,7 @@
         "tags": [
           "Products"
         ],
+        "summary": "Get a product",
         "description": "",
         "parameters": [
           {
@@ -412,6 +415,7 @@
         "tags": [
           "Products"
         ],
+        "summary": "Update a product",
         "description": "",
         "parameters": [
           {
@@ -456,6 +460,7 @@
         "tags": [
           "Products"
         ],
+        "summary": "Delete a product",
         "description": "",
         "parameters": [
           {
@@ -487,6 +492,7 @@
         "tags": [
           "Auth"
         ],
+        "summary": "Log in for user",
         "description": "",
         "responses": {
           "200": {
@@ -518,6 +524,7 @@
         "tags": [
           "Auth"
         ],
+        "summary": "Register new user",
         "description": "",
         "responses": {
           "200": {
@@ -549,6 +556,7 @@
         "tags": [
           "Auth"
         ],
+        "summary": "Access user data as admin",
         "description": "",
         "responses": {
           "200": {
@@ -573,6 +581,7 @@
         "tags": [
           "Auth"
         ],
+        "summary": "Update user data",
         "description": "",
         "responses": {
           "200": {
@@ -789,6 +798,7 @@
         "tags": [
           "Media"
         ],
+        "summary": "Upload an image",
         "description": "",
         "responses": {
           "200": {
@@ -826,6 +836,7 @@
         "tags": [
           "Media"
         ],
+        "summary": "Upload images",
         "description": "",
         "responses": {
           "200": {

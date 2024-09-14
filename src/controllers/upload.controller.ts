@@ -6,6 +6,7 @@ export default {
   async single(req: Request, res: Response) {
     /**
      #swagger.tags = ['Media']
+     #swagger.summary = 'Upload an image'
      #swagger.security = [{
       "bearerAuth": []
      }]
@@ -47,6 +48,7 @@ export default {
   async multiple(req: Request, res: Response) {
     /**
      #swagger.tags = ['Media']
+     #swagger.summary = 'Upload images'
      #swagger.security = [{
       "bearerAuth": []
      }]

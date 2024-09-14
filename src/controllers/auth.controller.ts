@@ -40,7 +40,8 @@ interface IRequestRegister extends Request {
 export default {
     async login(req: IRequestLogin, res: Response) {
       /**
-       #swagger.tags = ['Auth']
+      #swagger.tags = ['Auth']
+      #swagger.summary = 'Log in for user'
       #swagger.requestBody = {
         required: true,
         schema: {
@@ -66,7 +67,8 @@ export default {
     },
     async register(req: IRequestRegister, res: Response) {
       /**
-       #swagger.tags = ['Auth']
+      #swagger.tags = ['Auth']
+      #swagger.summary = 'Register new user'
       #swagger.requestBody = {
         required: true,
         schema: {
@@ -109,7 +111,8 @@ export default {
     },
     async me(req: IRequestWithUser, res: Response) {
       /**
-       #swagger.tags = ['Auth']
+      #swagger.tags = ['Auth']
+      #swagger.summary = 'Access user data as admin'
       #swagger.security = [{
         "bearerAuth": []
       }]
@@ -138,7 +141,8 @@ export default {
     },
     async updateProfile(req: IRequestWithUser, res: Response) {
       /**
-       #swagger.tags = ['Auth']
+      #swagger.tags = ['Auth']
+      #swagger.summary = 'Update user data'
       #swagger.requestBody = {
         required: true,
         schema: {$ref: "#/components/schemas/UpdateProfileRequest"}

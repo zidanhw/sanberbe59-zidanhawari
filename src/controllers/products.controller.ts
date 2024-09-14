@@ -25,7 +25,8 @@ export default {
     
     async create(req: IRequestWithUser, res: Response) {
         /**
-         #swagger.tags = ['Products']
+        #swagger.tags = ['Products']
+        #swagger.summary = 'Create a new product'
         #swagger.security = [{
         "bearerAuth": []
         }]
@@ -68,6 +69,7 @@ export default {
     async findAll(req: Request, res: Response) {
         /**
          #swagger.tags = ['Products']
+         #swagger.summary = 'Get all products'
         */
         try {
             const {
@@ -100,6 +102,7 @@ export default {
     async findOne(req:Request, res: Response) {
         /**
          #swagger.tags = ['Products']
+         #swagger.summary = 'Get a product'
         */
         try {
             const result = await findOne(req.params?.id);
@@ -119,6 +122,7 @@ export default {
     async update (req: Request, res: Response) {
         /**
          #swagger.tags = ['Products']
+         #swagger.summary = 'Update a product'
         #swagger.security = [{
         "bearerAuth": []
         }]
@@ -147,7 +151,8 @@ export default {
     },
     async delete (req: Request, res: Response) {
         /**
-         #swagger.tags = ['Products']
+        #swagger.tags = ['Products']
+        #swagger.summary = 'Delete a product'
         #swagger.security = [{
         "bearerAuth": []
         }]
